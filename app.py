@@ -11,3 +11,8 @@ daya = pd.DataFrame({
 })
 
 subset_size = st.slider("Selext the number of data points" , 10, 100, 50)
+
+plt.plot(data["x"][:subset_size], data["y"][:subset_size], "-o")
+st.pyplot(plt)
+
+notes = st.text_area("Add your comments or notes here")
