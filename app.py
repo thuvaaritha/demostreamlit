@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.title("Streamlit Research Study Dashboard")
 
-daya = pd.DataFrame({
+data = pd.DataFrame({
     "x" : np.arange(1,101),
     "y" : np.random.normal(0,1,100)
 })
